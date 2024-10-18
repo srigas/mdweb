@@ -1,4 +1,4 @@
-baseURL = "https://srigas.github.io/mdweb/"
+baseURL = "http://srigas.net/"
 title = "Spyros Rigas"
 theme = "hugo-coder"
 languageCode = "en"
