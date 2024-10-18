@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Spyros Rigas</title>
+    <link>http://localhost:1313/authors/</link>
+    <description>Recent content in Authors on Spyros Rigas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fotios Anagnostopoulos</title>
+      <link>http://localhost:1313/authors/fotios-anagnostopoulos/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/fotios-anagnostopoulos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Georgios Alexandridis</title>
+      <link>http://localhost:1313/authors/georgios-alexandridis/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/georgios-alexandridis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Michalis Papachristou</title>
+      <link>http://localhost:1313/authors/michalis-papachristou/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/michalis-papachristou/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spyros Rigas</title>
+      <link>http://localhost:1313/authors/spyros-rigas/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/spyros-rigas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theofilos Papadopoulos</title>
+      <link>http://localhost:1313/authors/theofilos-papadopoulos/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/theofilos-papadopoulos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paraskevi Tzouveli</title>
+      <link>http://localhost:1313/authors/paraskevi-tzouveli/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/paraskevi-tzouveli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stefanos Kollias</title>
+      <link>http://localhost:1313/authors/stefanos-kollias/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/stefanos-kollias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authors of Hugo</title>
+      <link>http://localhost:1313/authors/hugo-authors/</link>
+      <pubDate>Thu, 05 Jan 2023 01:15:29 +0100</pubDate>
+      <guid>http://localhost:1313/authors/hugo-authors/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

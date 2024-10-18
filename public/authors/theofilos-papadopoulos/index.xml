@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theofilos Papadopoulos on Spyros Rigas</title>
+    <link>http://localhost:1313/authors/theofilos-papadopoulos/</link>
+    <description>Recent content in Theofilos Papadopoulos on Spyros Rigas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/theofilos-papadopoulos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adaptive Training of Grid-Dependent Physics-Informed Kolmogorov-Arnold Networks</title>
+      <link>http://localhost:1313/publications/adaptive-pikans/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/adaptive-pikans/</guid>
+      <description>&lt;p&gt;PLACEHOLDER&lt;/p&gt;&#xA;&#xA;&lt;h3 id=&#34;examples&#34;&gt;&#xD;&#xA;  Examples&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#examples&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&#xA;&lt;p&gt;Block math:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;or&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\mathcal{H}\psi = \frac{\partial \psi}{\partial t}&#xA;$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

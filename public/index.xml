@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spyros Rigas</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Spyros Rigas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery</title>
+      <link>http://localhost:1313/publications/fault-detection-marine/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/fault-detection-marine/</guid>
+      <description>&lt;p&gt;In this open-access paper, which can be found &lt;a href=&#34;https://www.mdpi.com/1424-8220/24/16/5310&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, we presented an end-to-end solution designed for Predictive Maintenance (PdM) of shipboard machinery. The framework covers the entire lifecycle from data collection at the edge to cloud processing and fault detection using a MTAD-GAT deep learning model. Below are brief summaries of its main constituents:&lt;/p&gt;&#xA;&lt;h4 id=&#34;1-data-collection-and-edge-computing&#34;&gt;&#xD;&#xA;  1. Data Collection and Edge Computing&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-data-collection-and-edge-computing&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;Sensor data from shipboard machinery are collected via the MQTT protocol and processed &amp;amp; compressed at the edge to reduce transmission overhead. By combining MQTT with solutions like Apache Kafka or Telegraf, the framework ensures reliable data streaming even in challenging marine environments with intermittent connectivity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;d like to get in touch, feel free to reach out via email at &lt;a href=&#34;mailto:spyrigas@uoa.gr&#34; &gt;spyrigas@uoa.gr&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h1 id=&#34;experience&#34;&gt;&#xD;&#xA;  Experience&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#experience&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h4 id=&#34;data-engineering--machine-learning&#34;&gt;&#xD;&#xA;  Data Engineering &amp;amp; Machine Learning&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#data-engineering--machine-learning&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;SeaQuest Marine Technologies (&lt;em&gt;Sep. 2022 - Present&lt;/em&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;As the lead of Data &amp;amp; ML Operations, I supervise a multidisciplinary team of MLOps Developers, Data Scientists, Data and ML Engineers to design, develop, and deploy machine learning models into production. My team is focused on delivering scalable ML solutions to address key challenges in the marine industry, spanning from vessel performance optimization and emissions minimization to data-driven condition monitoring of shipboard machinery.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description>&lt;p&gt;I am a Physics-educated ML Scientist, holding an MSc degree in Data Science &amp;amp; Machine Learning from the National Technical University of Athens (NTUA), as well as a BSc and an MSc degree in Physics from the National and Kapodistrian University of Athens (NKUA).&lt;/p&gt;&#xA;&lt;p&gt;I currently work as the lead Data &amp;amp; ML Engineer at SeaQuest Marine Technologies. In the meantime, I&amp;rsquo;m pursuing a PhD in Physics-Informed Neural Networks at NKUA, mainly focusing on using Kolmogorov-Arnold Networks for PDE problems and Symbolic Regression.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

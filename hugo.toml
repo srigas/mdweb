@@ -1,0 +1,97 @@
+baseURL = "http://www.srigas.net"
+title = "Spyros Rigas"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 6
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "Spyros Rigas"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Spyros Rigas' personal website"
+keywords = "blog,developer,personal"
+info = ["Physicist, ML Scientist"]
+avatarURL = "images/avatar.png"
+dateFormat = "January 2, 2006"
+since = 2024
+favicon_16 = "images/favicon-16x16.png"
+favicon_32 = "images/favicon-32x32.png"
+# Right To Left, shift content direction for languages such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+
+# Custom JS
+customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/srigas/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/spyros-rigas/"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa-brands fa-google-scholar fa-2x"
+weight = 3
+url = "https://scholar.google.com/citations?user=qiqz9mcAAAAJ"
+
+[[params.social]]
+name = "ORCID"
+icon = "fa-brands fa-orcid fa-2x"
+weight = 4
+url = "https://orcid.org/0009-0009-2352-8709"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "aboutme/"
+
+[[languages.en.menu.main]]
+name = "CV"
+weight = 2
+url = "cv/"
+
+[[languages.en.menu.main]]
+name = "Publications"
+weight = 3
+url = "publications/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 4
+url = "contact/"

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery · Spyros Rigas
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spyros Rigas">
+<meta name="description" content="An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery">
+  <meta name="twitter:description" content="An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery">
+
+<meta property="og:url" content="http://localhost:1313/publications/fault-detection-marine/">
+  <meta property="og:site_name" content="Spyros Rigas">
+  <meta property="og:title" content="An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery">
+  <meta property="og:description" content="An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="publications">
+    <meta property="article:published_time" content="2024-08-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-08-16T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/publications/fault-detection-marine/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Spyros Rigas
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/aboutme/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/cv/">CV</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/publications/">Publications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/publications/fault-detection-marine/">
+          An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery
+        </a>
+      </h1>
+    </header>
+
+    <p>In this open-access paper, which can be found <a href="https://www.mdpi.com/1424-8220/24/16/5310"  class="external-link" target="_blank" rel="noopener">here</a>, we presented an end-to-end solution designed for Predictive Maintenance (PdM) of shipboard machinery. The framework covers the entire lifecycle from data collection at the edge to cloud processing and fault detection using a MTAD-GAT deep learning model. Below are brief summaries of its main constituents:</p>
+<h4 id="1-data-collection-and-edge-computing">
+  1. Data Collection and Edge Computing
+  <a class="heading-link" href="#1-data-collection-and-edge-computing">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Sensor data from shipboard machinery are collected via the MQTT protocol and processed &amp; compressed at the edge to reduce transmission overhead. By combining MQTT with solutions like Apache Kafka or Telegraf, the framework ensures reliable data streaming even in challenging marine environments with intermittent connectivity.</p>
+<h4 id="2-cloud-pipeline">
+  2. Cloud Pipeline
+  <a class="heading-link" href="#2-cloud-pipeline">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>The cloud infrastructure utilizes a lakehouse architecture with Apache Spark and Delta Lake for scalable, cost-efficient processing. Both batch and streaming data operations are supported, allowing continuous data ingestion and transformation, preparing the data for (near)-real-time analysis.</p>
+<h4 id="3-deep-learning-architecture">
+  3. Deep Learning Architecture
+  <a class="heading-link" href="#3-deep-learning-architecture">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>A deep learning model based on Graph Attention Networks (GATs) is employed to detect faults from the multivariate time-series data collected from the data acquisition devices. The model captures both spatial (inter-feature) and temporal relationships, providing explainable fault detection, for instance by highlighting the contribution of each feature to the model&rsquo;s prediction. It is trained in an unsupervised manner, making it effective for environments with minimal labeled data. The binary classification of points or segments as faulty or not is based on a scoring function and thresholding mechanism.</p>
+<h4 id="4-evaluation-and-mlops">
+  4. Evaluation and MLOps
+  <a class="heading-link" href="#4-evaluation-and-mlops">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>The framework is evaluated using a novel metric that balances fault detection accuracy with response time:</p>
+<p>$$
+\mathcal{F} = \frac{1}{\lambda_1 + \lambda_2 + \lambda_4} \cdot \max\left(0, \lambda_1F_1 + \lambda_2F_1^* - \lambda_3|F_1 - F_1^*| + \frac{\lambda_4}{N_E}\sum_{i=1}^{N_E}{\frac{1}{1+\theta_id_i}} - \lambda_5\frac{N_\text{und}}{N_E} \right),
+$$</p>
+<p>where $F_1$ is the model’s regular F1-Score, $F_1^*$ is the corresponding point-adjusted (PA) F1-Score obtained using the PA%K-L protocol, $N_E$ is the number of events in the time series, $N_\text{und}$ is the number of undetected events, and $d_i$ is the model’s delay in identifying the i-th event. Additionally, $\lambda_1, \dots, \lambda_5 \geq 0$ are tunable hyperparameters that regulate the contribution of each term to the overall score, and $\theta_i \geq 0$ are event-dependent factors that quantify the importance of the i-th event’s identification delay.</p>
+<p>The results on three PdM-related datasets show high accuracy in detecting faults early. Additionally, the framework integrates MLflow to handle the lifecycle management of the models (model tracking, retraining, automated evaluation, deployment, etc.).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">@article{s24165310,
+</span></span><span class="line"><span class="cl">	author = {Rigas, Spyros and Tzouveli, Paraskevi and Kollias, Stefanos},
+</span></span><span class="line"><span class="cl">	title = {An End-to-End Deep Learning Framework for Fault Detection in Marine Machinery},
+</span></span><span class="line"><span class="cl">	journal = {Sensors},
+</span></span><span class="line"><span class="cl">	volume = {24},
+</span></span><span class="line"><span class="cl">	year = {2024},
+</span></span><span class="line"><span class="cl">	number = {16},
+</span></span><span class="line"><span class="cl">	article-number = {5310},
+</span></span><span class="line"><span class="cl">	doi = {10.3390/s24165310}
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></div>
+
+  </article>
+</section>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Spyros Rigas 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
