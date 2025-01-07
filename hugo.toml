@@ -17,7 +17,7 @@ keywords = "blog,developer,personal"
 info = ["Physicist, ML Scientist"]
 avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
-since = 2024
+since = 2025
 favicon_16 = "images/favicon-16x16.png"
 favicon_32 = "images/favicon-32x32.png"
 # Right To Left, shift content direction for languages such as Arabic
