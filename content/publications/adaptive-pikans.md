@@ -35,13 +35,13 @@ Below is a visualization showcasing the adaptive PIKAN solutions for four PDEs a
 
 {{< highlight html >}}
 @article{10763509,
-      author={Rigas, Spyros and Papachristou, Michalis and Papadopoulos, Theofilos and Anagnostopoulos, Fotios and Alexandridis, Georgios},
-      journal={IEEE Access}, 
-      title={Adaptive Training of Grid-Dependent Physics-Informed Kolmogorov-Arnold Networks}, 
-      year={2024},
-      volume={12},
-      pages={176982-176998},
-      doi={10.1109/ACCESS.2024.3504962}
+      author = {Rigas, Spyros and Papachristou, Michalis and Papadopoulos, Theofilos and Anagnostopoulos, Fotios and Alexandridis, Georgios},
+      journal = {IEEE Access}, 
+      title = {Adaptive Training of Grid-Dependent Physics-Informed Kolmogorov-Arnold Networks}, 
+      year = {2024},
+      volume = {12},
+      pages = {176982-176998},
+      doi = {10.1109/ACCESS.2024.3504962}
 }
 
 {{< /highlight >}}
